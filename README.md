@@ -17,6 +17,7 @@
 * [predeclared](https://github.com/nishanths/predeclared): report code shadows built-ins.
 * [ghost](https://github.com/elliotchance/ghost): report complex lines.
 * [go-critic](https://github.com/go-critic/go-critic): report many opinionated and error-prone code.
+* [go-consistent](https://github.com/Quasilyte/go-consistent): report inconsistent code.
 
 ## License
 

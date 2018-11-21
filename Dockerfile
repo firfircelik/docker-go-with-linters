@@ -14,7 +14,8 @@ RUN go get -u github.com/alecthomas/gometalinter && gometalinter --install && \
     github.com/remyoudompheng/go-misc/deadcode \
     github.com/nishanths/predeclared \
     github.com/elliotchance/ghost \
-    github.com/go-critic/go-critic/...
+    github.com/go-critic/go-critic/... \
+    github.com/Quasilyte/go-consistent
 
 FROM golang:1.11.2
 COPY --from=builder /go/bin/* /usr/bin/
